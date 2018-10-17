@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import storeShape from './storeShape'
 
 export default class Provider extends Component {
-
   static propTypes = {
     store: storeShape.isRequired,
     children: PropTypes.element.isRequired

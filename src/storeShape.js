@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types'
 
-export default PropTypes.shape({
+const storeShape = PropTypes.shape({
   inject: PropTypes.func.isRequired,
   autoRun: PropTypes.func.isRequired,
   getRacxValue: PropTypes.func.isRequired,
   extendsObservable: PropTypes.func.isRequired
 })
+
+export default storeShape
